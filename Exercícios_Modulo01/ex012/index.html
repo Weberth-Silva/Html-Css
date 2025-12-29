@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-media.png" type="image/png">
+        <img src="img/img-grande.png" alt="Imagem grande">
+    </picture>
+
+        <h1>Reproduzindo Àudio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+        <!-- 1° Maneira de colocar áudio no site:  <audio src="msc/Tipo Jiraia 2😏-mh rap.m4a" controls autoplay></audio> --> 
+         <audio preload="metadata" autoplay controls>
+            <source src="msc/Tipo Jiraia 2😏-mh rap.m4a" type="audio/mp4">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="msc/Tipo Jiraia 2😏-mh rap.m4a">Clique aqui para baixar o arquivo.</a></p>
+         </audio>
+</body>
+</html>

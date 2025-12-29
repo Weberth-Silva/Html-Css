@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/* 
+Medidas absoletas:
+Cm, mm, in (polegada), px (pixel). 
+[ pt (ponto), pc (paica) não é recomendado utilizar.]
+
+Medidas relativas: 
+Em (Medida relativa ao tamanho atual da fonte, de uma letra maíuscula), ex (relativa X de uma fonte, tamanho da altura x de uma fonte), rem (Relativa ao rute, fonte configurada no body), VW (largura do tamanho da tela), VH (altura do tamanho da tela), %.
+16px geralmente é o tamanho de 1em.
+*/
