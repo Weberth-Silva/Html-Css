@@ -1,9 +1,10 @@
 #container {
-    position: relative;
-    height: 500px;        
+    height: 96vh;
     background-color: purple;
-    padding: 10px;
     background-image: url(img/target001.png);
+    background-size: 100% 100%;
+    position: relative;  /* SEMPRE É RELATIVO, NÃO PRECISA ESPECIALIZAR */
+
 }
 
 #conteudo {
@@ -13,4 +14,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
+    background-image: url(img/target001.png);
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%);
 }
